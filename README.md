@@ -1,5 +1,5 @@
 # CS210-Fall-2023-Project
-The aim of this project is to analyze my Lichess games' data that I obtained from Lichess app. The presentation can be found in this link: https://drive.google.com/file/d/1hNLCUnwA2SDrG-CZf45h7dhHFdyVVOLJ/view?usp=sharing
+The aim of this project is to analyze my Lichess games' data that I obtained from Lichess app. I needed to convert graphs to static because they do not appear in the notebook using orca, the original plots can be seen in the presentation and plot pngs. The presentation can be found in this link: https://drive.google.com/file/d/1hNLCUnwA2SDrG-CZf45h7dhHFdyVVOLJ/view?usp=sharing
 
 I downloaded the data from Lichess app. Then converted the downloaded data to .txt format to process it easily. I extracted the dataframe using Pandas and regex. Also, I hided my opponents names since they may not want their usernames to be published. I also did some preprocessing on the data while creating the dataframe to make my job easier in the future. Some of the preprocessings are extracting win, lose, draw from "1-0" information provided in the data and also extracting rival's and my elo's according to role provided by data. 
 
